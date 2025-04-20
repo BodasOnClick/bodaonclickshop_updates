@@ -41,5 +41,13 @@
     "extra1_titulo": "📸 Galería Multimedia Compartida",
     "extra1_descripcion": "Convierte los recuerdos de tu boda en un álbum vivo y colaborativo. Con esta funcionalidad, añadimos un código QR personalizado y un acceso directo en tu web que lleva a un espacio de almacenamiento en la nube (Drive, OneDrive, iCloud, etc.), donde todos los invitados pueden subir las fotos y vídeos que tomaron durante el gran día. ¡Una manera preciosa de ver tu boda desde los ojos de tus seres queridos!</br>Nosotros nos encargamos de todo, incluyendo los costes del almacenamiento, para que tú solo tengas que disfrutar viendo cómo crece tu colección de recuerdos auténticos y espontáneos.",
     "extra2_titulo": "📖 Libro de Visitas Digital",
-    "extra2_descripcion": "Un rincón especial dentro de tu web donde familiares y amigos pueden dejar mensajes, anécdotas, deseos o recuerdos tanto antes como después del evento. Cada entrada se publica al instante y queda visible junto a las demás, creando un mural digital lleno de cariño y emociones.</br>Este libro de visitas no solo es un bonito detalle para quienes quieren expresar lo que sienten, sino que se convierte en un recuerdo imborrable que podréis releer siempre que queráis."
+    "extra2_descripcion": "Un rincón especial dentro de tu web donde familiares y amigos pueden dejar mensajes, anécdotas, deseos o recuerdos tanto antes como después del evento. Cada entrada se publica al instante y queda visible junto a las demás, creando un mural digital lleno de cariño y emociones.</br>Este libro de visitas no solo es un bonito detalle para quienes quieren expresar lo que sienten, sino que se convierte en un recuerdo imborrable que podréis releer siempre que queráis.",
+    "nav_contacto": "Contacto",
+    "contacto_titulo": "Contáctanos",
+    "contacto_intro": "¿Tienes dudas, sugerencias o quieres una propuesta personalizada? Rellena el siguiente formulario y te responderemos lo antes posible.",
+    "contacto_nombre": "Nombre:",
+    "contacto_email": "Correo electrónico:",
+    "contacto_mensaje": "Mensaje:",
+    "contacto_enviar": "Enviar mensaje",
+    "contacto_redes": "También puedes enviarnos un mensaje directo en nuestras redes sociales o a nuestro correo electrónico:"
   }

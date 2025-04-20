@@ -41,5 +41,13 @@
   "extra1_titulo": "📸 Gedeelde Multimedia Galerij",
   "extra1_descripcion": "Verander de herinneringen van uw bruiloft in een levend en collaboratief album. Met deze functionaliteit voegen we een gepersonaliseerde QR-code en een directe link op uw website toe die leidt naar een cloudopslagruimte (Drive, OneDrive, iCloud, enz.), waar alle gasten de foto's en video's kunnen uploaden die ze tijdens de grote dag hebben gemaakt. Een prachtige manier om uw bruiloft door de ogen van uw dierbaren te zien!</br>Wij zorgen voor alles, inclusief de opslagkosten, zodat u alleen maar hoeft te genieten van het groeien van uw verzameling authentieke en spontane herinneringen.",
   "extra2_titulo": "📖 Digitaal Gastenboek",
-  "extra2_descripcion": "Een speciaal hoekje op uw website waar familie en vrienden zowel voor als na het evenement berichten, anekdotes, wensen of herinneringen kunnen achterlaten. Elk bericht wordt direct gepubliceerd en blijft zichtbaar naast de andere, waardoor een digitale muurschildering vol genegenheid en emoties ontstaat.</br>Dit gastenboek is niet alleen een mooi detail voor wie wil uiten wat hij voelt, maar het wordt ook een onuitwisbare herinnering die u altijd kunt herlezen."
+  "extra2_descripcion": "Een speciaal hoekje op uw website waar familie en vrienden zowel voor als na het evenement berichten, anekdotes, wensen of herinneringen kunnen achterlaten. Elk bericht wordt direct gepubliceerd en blijft zichtbaar naast de andere, waardoor een digitale muurschildering vol genegenheid en emoties ontstaat.</br>Dit gastenboek is niet alleen een mooi detail voor wie wil uiten wat hij voelt, maar het wordt ook een onuitwisbare herinnering die u altijd kunt herlezen.",
+  "nav_contacto": "Contact",
+  "contacto_titulo": "Neem contact met ons op",
+  "contacto_intro": "Heeft u vragen, suggesties of wilt u een persoonlijk voorstel? Vul het onderstaande formulier in en we zullen zo snel mogelijk reageren.",
+  "contacto_nombre": "Naam:",
+  "contacto_email": "E-mailadres:",
+  "contacto_mensaje": "Bericht:",
+  "contacto_enviar": "Bericht verzenden",
+  "contacto_redes": "U kunt ons ook een direct bericht sturen op onze sociale media:"
 }

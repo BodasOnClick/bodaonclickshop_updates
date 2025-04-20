@@ -41,5 +41,13 @@
   "extra1_titulo": "📸 Galerie Multimédia Partagée",
   "extra1_descripcion": "Transformez les souvenirs de votre mariage en un album vivant et collaboratif. Grâce à cette fonctionnalité, nous ajoutons un code QR personnalisé et un accès direct sur votre site web qui mène à un espace de stockage dans le cloud (Drive, OneDrive, iCloud, etc.), où tous les invités peuvent télécharger les photos et vidéos qu'ils ont prises pendant le grand jour. Une merveilleuse façon de voir votre mariage à travers les yeux de vos proches !</br>Nous nous occupons de tout, y compris des coûts de stockage, pour que vous n'ayez qu'à profiter de la croissance de votre collection de souvenirs authentiques et spontanés.",
   "extra2_titulo": "📖 Livre d'Or Numérique",
-  "extra2_descripcion": "Un coin spécial sur votre site web où famille et amis peuvent laisser des messages, des anecdotes, des vœux ou des souvenirs avant et après l'événement. Chaque entrée est publiée instantanément et reste visible à côté des autres, créant une fresque numérique pleine d'affection et d'émotions.</br>Ce livre d'or n'est pas seulement un joli détail pour ceux qui veulent exprimer ce qu'ils ressentent, mais il devient aussi un souvenir impérissable que vous pourrez relire quand vous le souhaitez."
+  "extra2_descripcion": "Un coin spécial sur votre site web où famille et amis peuvent laisser des messages, des anecdotes, des vœux ou des souvenirs avant et après l'événement. Chaque entrée est publiée instantanément et reste visible à côté des autres, créant une fresque numérique pleine d'affection et d'émotions.</br>Ce livre d'or n'est pas seulement un joli détail pour ceux qui veulent exprimer ce qu'ils ressentent, mais il devient aussi un souvenir impérissable que vous pourrez relire quand vous le souhaitez.",
+  "nav_contacto": "Contact",
+  "contacto_titulo": "Contactez-nous",
+  "contacto_intro": "Vous avez des questions, des suggestions ou vous souhaitez une proposition personnalisée ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
+  "contacto_nombre": "Nom :",
+  "contacto_email": "Adresse e-mail :",
+  "contacto_mensaje": "Message :",
+  "contacto_enviar": "Envoyer le message",
+  "contacto_redes": "Vous pouvez également nous envoyer un message direct sur nos réseaux sociaux :"
 }

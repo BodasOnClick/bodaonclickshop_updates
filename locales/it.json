@@ -41,5 +41,13 @@
   "extra1_titulo": "📸 Galleria Multimediale Condivisa",
   "extra1_descripcion": "Trasforma i ricordi del tuo matrimonio in un album vivo e collaborativo. Con questa funzionalità, aggiungiamo un codice QR personalizzato e un accesso diretto sul tuo sito web che porta a uno spazio di archiviazione nel cloud (Drive, OneDrive, iCloud, ecc.), dove tutti gli invitati possono caricare le foto e i video che hanno scattato durante il grande giorno. Un modo meraviglioso per vedere il tuo matrimonio attraverso gli occhi dei tuoi cari!</br>Ci occupiamo di tutto, inclusi i costi di archiviazione, affinché tu debba solo goderti la crescita della tua collezione di ricordi autentici e spontanei.",
   "extra2_titulo": "📖 Libro degli Ospiti Digitale",
-  "extra2_descripcion": "Un angolo speciale all'interno del tuo sito web dove familiari e amici possono lasciare messaggi, aneddoti, auguri o ricordi sia prima che dopo l'evento. Ogni voce viene pubblicata all'istante e rimane visibile accanto alle altre, creando un murale digitale pieno di affetto ed emozioni.</br>Questo libro degli ospiti non è solo un bel dettaglio per chi vuole esprimere ciò che sente, ma diventa anche un ricordo indelebile che potrete rileggere ogni volta che vorrete."
+  "extra2_descripcion": "Un angolo speciale all'interno del tuo sito web dove familiari e amici possono lasciare messaggi, aneddoti, auguri o ricordi sia prima che dopo l'evento. Ogni voce viene pubblicata all'istante e rimane visibile accanto alle altre, creando un murale digitale pieno di affetto ed emozioni.</br>Questo libro degli ospiti non è solo un bel dettaglio per chi vuole esprimere ciò che sente, ma diventa anche un ricordo indelebile che potrete rileggere ogni volta che vorrete.",
+  "nav_contacto": "Contatti",
+  "contacto_titulo": "Contattaci",
+  "contacto_intro": "Hai domande, suggerimenti o desideri una proposta personalizzata? Compila il seguente modulo e ti risponderemo il prima possibile.",
+  "contacto_nombre": "Nome:",
+  "contacto_email": "Indirizzo e-mail:",
+  "contacto_mensaje": "Messaggio:",
+  "contacto_enviar": "Invia messaggio",
+  "contacto_redes": "Puoi anche inviarci un messaggio diretto sui nostri social network:"
 }

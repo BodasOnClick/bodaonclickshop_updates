@@ -41,5 +41,13 @@
   "extra1_titulo": "📸 Shared Multimedia Gallery",
   "extra1_descripcion": "Turn your wedding memories into a living and collaborative album. With this feature, we add a personalized QR code and a direct link on your website that leads to a cloud storage space (Drive, OneDrive, iCloud, etc.), where all guests can upload the photos and videos they took during the big day. A wonderful way to see your wedding through the eyes of your loved ones!</br>We take care of everything, including storage costs, so you only have to enjoy watching your collection of authentic and spontaneous memories grow.",
   "extra2_titulo": "📖 Digital Guestbook",
-  "extra2_descripcion": "A special corner within your website where family and friends can leave messages, anecdotes, wishes, or memories both before and after the event. Each entry is published instantly and remains visible alongside the others, creating a digital mural full of affection and emotions.</br>This guestbook is not only a lovely detail for those who want to express how they feel, but it also becomes an unforgettable memory that you can reread whenever you want."
+  "extra2_descripcion": "A special corner within your website where family and friends can leave messages, anecdotes, wishes, or memories both before and after the event. Each entry is published instantly and remains visible alongside the others, creating a digital mural full of affection and emotions.</br>This guestbook is not only a lovely detail for those who want to express how they feel, but it also becomes an unforgettable memory that you can reread whenever you want.",
+  "nav_contacto": "Contact",
+  "contacto_titulo": "Contact Us",
+  "contacto_intro": "Do you have any questions, suggestions, or would you like a personalized proposal? Fill out the form below and we will get back to you as soon as possible.",
+  "contacto_nombre": "Name:",
+  "contacto_email": "Email address:",
+  "contacto_mensaje": "Message:",
+  "contacto_enviar": "Send message",
+  "contacto_redes": "You can also send us a direct message on our social media:"
 }

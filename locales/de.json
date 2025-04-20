@@ -41,5 +41,13 @@
   "extra1_titulo": "📸 Gemeinsame Multimedia-Galerie",
   "extra1_descripcion": "Verwandeln Sie die Erinnerungen Ihrer Hochzeit in ein lebendiges und kollaboratives Album. Mit dieser Funktion fügen wir einen personalisierten QR-Code und einen direkten Link auf Ihrer Website hinzu, der zu einem Cloud-Speicherplatz (Drive, OneDrive, iCloud usw.) führt, wo alle Gäste die Fotos und Videos hochladen können, die sie während des großen Tages aufgenommen haben. Eine wunderschöne Möglichkeit, Ihre Hochzeit aus den Augen Ihrer Lieben zu sehen!</br>Wir kümmern uns um alles, einschließlich der Speicherkosten, damit Sie einfach nur genießen können, wie Ihre Sammlung authentischer und spontaner Erinnerungen wächst.",
   "extra2_titulo": "📖 Digitales Gästebuch",
-  "extra2_descripcion": "Eine besondere Ecke auf Ihrer Website, in der Familie und Freunde sowohl vor als auch nach der Veranstaltung Nachrichten, Anekdoten, Wünsche oder Erinnerungen hinterlassen können. Jeder Eintrag wird sofort veröffentlicht und ist neben den anderen sichtbar, wodurch ein digitales Wandbild voller Zuneigung und Emotionen entsteht.</br>Dieses Gästebuch ist nicht nur ein schönes Detail für diejenigen, die ihre Gefühle ausdrücken möchten, sondern es wird auch zu einer unvergesslichen Erinnerung, die Sie immer wieder lesen können."
+  "extra2_descripcion": "Eine besondere Ecke auf Ihrer Website, in der Familie und Freunde sowohl vor als auch nach der Veranstaltung Nachrichten, Anekdoten, Wünsche oder Erinnerungen hinterlassen können. Jeder Eintrag wird sofort veröffentlicht und ist neben den anderen sichtbar, wodurch ein digitales Wandbild voller Zuneigung und Emotionen entsteht.</br>Dieses Gästebuch ist nicht nur ein schönes Detail für diejenigen, die ihre Gefühle ausdrücken möchten, sondern es wird auch zu einer unvergesslichen Erinnerung, die Sie immer wieder lesen können.",
+  "nav_contacto": "Kontakt",
+  "contacto_titulo": "Kontaktieren Sie uns",
+  "contacto_intro": "Haben Sie Fragen, Anregungen oder wünschen Sie ein individuelles Angebot? Füllen Sie das folgende Formular aus und wir werden Ihnen so schnell wie möglich antworten.",
+  "contacto_nombre": "Name:",
+  "contacto_email": "E-Mail:",
+  "contacto_mensaje": "Nachricht:",
+  "contacto_enviar": "Nachricht senden",
+  "contacto_redes": "Sie können uns auch eine Direktnachricht in unseren sozialen Netzwerken senden:"
 }
