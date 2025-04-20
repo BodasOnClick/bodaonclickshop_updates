@@ -1,0 +1,450 @@
+/* RESET Y BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .about {
+    margin-top: 20px;
+  }
+  
+  body {
+    background-color: #fce4ec; /* Fondo rosado suave */;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  /* HEADER Y NAV */
+  header {
+    background: rgb(252, 225, 234);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  nav h1 {
+    color: #d4af37; /* dorado */
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #c92c6d;
+    transition: width 0.3s ease;
+  }
+  
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  
+  nav ul li a:hover {
+    color: #c92c6d;
+  }
+
+  .language-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.5rem 2rem 0 2rem;
+  }
+  
+  .language-switcher {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #d4af37;
+  }
+  
+  .language-switcher a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 3px;
+    transition: color 0.3s ease;
+  }
+  
+  .language-switcher a:hover {
+    color: #c92c6d;
+  }
+  
+  .boda-divider {
+    border: none;
+    height: 1px;
+    background-color: #d4af37;
+    width: 100%;
+    margin-top: 0.5rem;
+    opacity: 0.6;
+  }
+  
+  
+  /* SECCIONES */
+  section {
+    padding: 20px 20px;
+    margin: auto;
+  }
+
+  h2 {
+    color: #d4af37;
+  }
+  
+  /* HERO */
+  .hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-img {
+    width: 80%;           
+    height: auto;         
+    max-width: 1000px;    
+    object-fit: contain;  
+  }
+  
+  .hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
+  /* SERVICIOS */
+  .services {
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #c92c6d;
+  }
+  
+  .services .card {
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    padding: 25px 15px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .services .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+  
+  /* PRICING */
+  .pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #c92c6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .pricing form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .pricing label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .pricing input[type="number"],
+  .pricing select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .pricing .checkboxes label {
+    font-weight: normal;
+    display: block;
+    margin-top: 8px;
+  }
+  
+  .pricing input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 25px;
+    background: #f7f7f7;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .hero {
+      flex-direction: column;
+      height: auto;
+      padding-bottom: 2rem;
+    }
+
+    .hero-img {
+      position: static;
+      height: auto; 
+      width: 100%;
+      object-fit: contain;
+      z-index: 0;
+    }
+  
+    .services .card {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .hero h2 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      font-size: 1.4rem;
+      text-align: center;
+      width: 100%;
+      
+    }
+  
+    .pricing form {
+      padding: 20px;
+    }
+  }
+
+  .social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    color: #c92c6d;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 280px;
+    max-width: 600px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  
+  .about-img {
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+  }
+  
+  .about-img img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services .card {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .services .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .services .info {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    font-size: 0.95rem;
+    color: #555;
+    display: none;
+    animation: fadeIn 0.4s ease forwards;
+  }
+
+  .info.active {
+    display: block;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Estilo base para el menú */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+/* Botón de hamburguesa oculto en desktop */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d4af37;
+}
+
+/* Responsive: cambiar menú en pantallas pequeñas */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #fce4ec;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+.services p {
+  display: none;
+  margin: 20px auto;
+  font-size: 1em;
+  color: #444;
+  max-width: 600px; /* limita el ancho del bloque */
+  text-align: justify; /* justifica el texto */
+  line-height: 1.6;
+  padding: 0 15px;
+}
+
+/* Centra el párrafo como bloque */
+.services p[style*="block"] {
+  display: block;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .card {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+  }
+}

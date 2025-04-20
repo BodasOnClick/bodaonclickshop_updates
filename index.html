@@ -1,0 +1,107 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BodaOnClick</title>  
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <div class="language-bar">
+      <div class="language-switcher">
+        <a href="#" onclick="loadLanguage('es')">ES</a> |
+        <a href="#" onclick="loadLanguage('en')">EN</a> |
+        <a href="#" onclick="loadLanguage('de')">DE</a> |
+        <a href="#" onclick="loadLanguage('fr')">FR</a> |
+        <a href="#" onclick="loadLanguage('nl')">NL</a> |
+        <a href="#" onclick="loadLanguage('it')">IT</a>
+      </div>
+      <hr class="boda-divider" />
+    </div>
+    <nav>
+      <h1>BodaOnClick</h1>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <ul>
+        <li><a href="index.html" data-i18n="nav_inicio"></a></li>
+        <li><a href="paquetes.html" data-i18n="nav_paquetes"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <img src="./Imagen de marca.jpeg" class="hero-img" alt="Foto boda" />
+    <h2 data-i18n="title_web"></h2>
+  </section>
+
+  <section id="nosotros" class="about">
+    <h2 data-i18n="title_historia"></h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p data-i18n="text_historia_1"></p>
+        <p data-i18n="text_historia_2"></p>
+        <p data-i18n="text_historia_3"></p>
+        <p data-i18n="text_historia_4"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2 data-i18n="servicios_titulo"></h2>
+    <div class="card" data-i18n="servicio1_titulo">
+    </div>
+    <div class="card" data-i18n="servicio2_titulo">
+    </div>
+    <div class="card" data-i18n="servicio3_titulo">
+    </div>
+    <div class="card" data-i18n="servicio4_titulo">
+    </div>
+  </section>
+
+  <section id="precios" class="pricing">
+    <h2 data-i18n="calculadora_titulo"></h2>
+    <form oninput="calcularPrecio()">
+      <label for="tipo" data-i18n="tipo_evento"></label>
+      <select id="tipo">
+        <option value="low-cost" data-i18n="paquete1_titulo"></option>
+        <option value="basic" data-i18n="paquete2_titulo"></option>
+        <option value="personalizada" data-i18n="paquete3_titulo"></option>
+      </select>
+
+      <div class="checkboxes">
+        <label>
+          <input type="checkbox" id="foto"/>
+          <span data-i18n="extra1_titulo"></span>
+        </label>
+        <label>
+          <input type="checkbox" id="comentarios"/>
+          <span data-i18n="extra2_titulo"></span>
+        </label>
+      </div>
+
+      <div class="result" id="resultado" data-i18n="precio_estimado"></div>
+    </form>
+  </section>
+
+  <footer>
+    <p data-i18n="footer"></p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/bodaonclick/" target="_blank" aria-label="Instagram">
+        <img src="./icons8-instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://es.pinterest.com/bodaonclick/" target="_blank" aria-label="Pinterest">
+        <img src="./icons8-pinterest.svg" alt="Pinterest" />
+      </a>
+    </div>
+  </footer>
+  <script src="./i18n.js"></script>
+  <script>
+    const savedLang = localStorage.getItem("lang") || navigator.language.split('-')[0] || "es";
+    const supported = ["es", "en"];
+    const lang = supported.includes(savedLang) ? savedLang : "es";
+    loadLanguage(lang);
+  </script>
+  <script src="./script.js"></script>
+
+</body>
+</html>
+  
