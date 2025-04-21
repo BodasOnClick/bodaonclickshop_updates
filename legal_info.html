@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textos Legales - Bodaonclick</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+    h1, h2 { color: #333; }
+    h2 { margin-top: 2rem; }
+    nav { margin-bottom: 2rem; }
+    nav a { margin-right: 1rem; text-decoration: none; color: #007BFF; }
+    nav a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="language-bar">
+          <div class="language-switcher">
+            <a href="#" onclick="loadLanguage('es')">ES</a> |
+            <a href="#" onclick="loadLanguage('en')">EN</a> |
+            <a href="#" onclick="loadLanguage('de')">DE</a> |
+            <a href="#" onclick="loadLanguage('fr')">FR</a> |
+            <a href="#" onclick="loadLanguage('nl')">NL</a> |
+            <a href="#" onclick="loadLanguage('it')">IT</a>
+          </div>
+          <hr class="boda-divider" />
+        </div>
+    </header>
+  <h1  data-i18n="title_legal"></h1>
+  <nav>
+    <a href="#aviso-legal" data-i18n="legalNotice"></a>
+    <a href="#privacidad" data-i18n="privacyPolicy"></a>
+    <a href="#cookies" data-i18n="cookiesPolicy"></a>
+    <a href="#condiciones" data-i18n="terms"></a>
+  </nav>
+
+  <section id="aviso-legal">
+    <h2 data-i18n="legalNotice"></h2>
+    <p data-i18n="content_legalNotice"></p>
+    <p data-i18n="contact_legalNotice"></p>
+    <p data-i18n="purpose_legalNotice"></p>
+  </section>
+
+  <section id="privacidad">
+    <h2 data-i18n="privacyPolicy"></h2>
+    <p data-i18n="content1_privacyPolicy"></p>
+    <p data-i18n="content2_privacyPolicy"></p>
+    <p data-i18n="rights_privacyPolicy"></p>
+  </section>
+
+  <section id="cookies">
+    <h2 data-i18n="cookiesPolicy"></h2>
+    <p data-i18n="content1_cookiesPolicy"></p>
+    <p data-i18n="content2_cookiesPolicy"></p>
+  </section>
+
+  <section id="condiciones">
+    <h2 data-i18n="terms"></h2>
+    <p data-i18n="terms_intro"></p>
+    <ul>
+      <li data-i18n="terms_basic"></li>
+      <li data-i18n="terms_custom"></li>
+      <li data-i18n="terms_premium"></li>
+    </ul>
+    <p data-i18n="terms_process"></p>
+    <p data-i18n="terms_cancellation"></p>
+    <p data-i18n="terms_revisions"></p>
+  </section>
+
+  <script src="./i18n.js"></script>
+  <script src="./script.js"></script>
+  <script>
+    // Detectar idioma guardado o del navegador
+    const savedLang = localStorage.getItem("lang") || navigator.language.split('-')[0] || "es";
+    const supported = ["es", "en", "de", "fr", "it", "nl"];
+    const lang = supported.includes(savedLang) ? savedLang : "es";
+  
+    // Ejecuta la traducción
+    loadLanguage(lang);
+
+  </script>
+</body>
+</html>
