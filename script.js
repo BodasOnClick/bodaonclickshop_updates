@@ -11,7 +11,7 @@ function calcularPrecio() {
     document.getElementById("resultado").innerText = "Precio estimado: €" + precio;
   }
 
-  window.onload = calcularPrecio;
+  window.onload = calcularPrecio();
 
   function toggleMenu() {
     const navList = document.querySelector("nav ul");
